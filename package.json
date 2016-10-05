@@ -1,8 +1,8 @@
 {
   "name": "math-toolbox",
-  "version": "1.0.0",
   "description": "Lightweight and modular math toolbox",
   "main": "src/math-toolbox.js",
+  "version": "0.0.0-semantically-released",
   "scripts": {
     "build": "NODE_ENV=build rollup -c",
     "build:uglify": "npm run build && uglifyjs dist/math-toolbox.js -cm --preamble \"// math-toolbox.js - https://github.com/terkelg/math-toolbox\" > dist/math-toolbox.min.js",
@@ -10,7 +10,8 @@
     "test": "jest",
     "test:watch": "npm test -- --watch",
     "test:coverage": "jest --coverage",
-    "docs": "documentation build src/math-toolbox.js -f html -o docs"
+    "docs": "documentation build src/math-toolbox.js -f html -o docs",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -58,10 +59,17 @@
     "rollup": "^0.36.1",
     "rollup-plugin-babel": "^2.6.1",
     "standard": "^8.2.0",
-    "uglify-js": "^2.7.3"
+    "uglify-js": "^2.7.3",
+    "semantic-release": "^4.3.5"
   },
   "standard": {
-    "globals": ["expect", "it", "test", "describe"]
+    "ignore": ["/docs"],
+    "globals": [
+      "expect",
+      "it",
+      "test",
+      "describe"
+    ]
   },
   "config": {
     "ghooks": {
