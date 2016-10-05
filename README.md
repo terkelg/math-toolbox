@@ -14,7 +14,7 @@
 ## Install
 
 ### Node
-```npm install math-toolbox --save-dev```
+** NPM Coming soon **
 
 ## Usage
 You can import indivisual files
