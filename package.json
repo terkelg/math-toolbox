@@ -1,7 +1,7 @@
 {
   "name": "math-toolbox",
   "description": "Lightweight and modular math toolbox",
-  "main": "src/math-toolbox.js",
+  "main": "dist/math-toolbox.js",
   "version": "0.0.0-semantically-released",
   "scripts": {
     "build": "NODE_ENV=build rollup -c",
