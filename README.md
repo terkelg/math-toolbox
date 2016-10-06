@@ -32,7 +32,7 @@ import * as MathToolbox from 'math-toolbox'
 ### Browser
 CDN with UMD build for use in the browser:
 ```
-https://unpkg.com/math-toolbox@1.0.2/dist/math-toolbox.min.js
+https://unpkg.com/math-toolbox/dist/math-toolbox.min.js
 ```
 
 ## Documentation
