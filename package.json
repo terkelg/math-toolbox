@@ -63,7 +63,7 @@
     "semantic-release": "^4.3.5"
   },
   "standard": {
-    "ignore": ["/docs"],
+    "ignore": ["/docs", "/dist"],
     "globals": [
       "expect",
       "it",
