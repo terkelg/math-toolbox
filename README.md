@@ -76,6 +76,10 @@ Returns the euclidian distance between the two given set of coordinates
 #### parabola
 Remap value to parabola 
 
+## Plans
+See GitHub Wiki:
+https://github.com/terkelg/math-toolbox/wiki/Roadmap
+
 ## Build
 First clone the project from github:
 ```
