@@ -15,6 +15,7 @@ script:
   - npm test
 after_success:
   - npm run semantic-release
+  - npm run coveralls
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
