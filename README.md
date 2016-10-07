@@ -3,11 +3,11 @@
 > Lightweight and modular collection of JS math functions
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-[![Travis](https://img.shields.io/travis/terkelg/math-toolbox.svg?maxAge=2592000)]()
-[![David](https://img.shields.io/david/dev/terkelg/math-toolbox.svg?maxAge=2592000)]()
+[![Travis](https://img.shields.io/travis/terkelg/math-toolbox.svg?maxAge=2592000)](https://travis-ci.org/terkelg/math-toolbox)
+[![David](https://img.shields.io/david/dev/terkelg/math-toolbox.svg?maxAge=2592000)](https://david-dm.org/terkelg/math-toolbox?type=dev)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![npm](https://img.shields.io/npm/v/math-toolbox.svg?maxAge=2592000)]()
-[![license](https://img.shields.io/github/license/terkelg/math-toolbox.svg?maxAge=2592000)]()
+[![npm](https://img.shields.io/npm/v/math-toolbox.svg?maxAge=2592000)](https://www.npmjs.com/package/math-toolbox)
+[![license](https://img.shields.io/github/license/terkelg/math-toolbox.svg?maxAge=2592000)](https://github.com/terkelg/math-toolbox/blob/master/LICENSE.md)
 [![Coveralls](https://img.shields.io/coveralls/terkelg/math-toolbox.svg?maxAge=2592000)]()
 
 
