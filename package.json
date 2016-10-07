@@ -4,12 +4,16 @@
   "main": "dist/math-toolbox.js",
   "version": "0.0.0-semantically-released",
   "scripts": {
-    "build": "NODE_ENV=build rollup -c",
+    "prebuild": "npm test",
+    "build": "npm run build:*",
+    "postbuild": "npm run docs",
+    "build:es": "NODE_ENV=build rollup -c",
+    "build:umd": "",
     "build:uglify": "npm run build && uglifyjs dist/math-toolbox.js -cm --preamble \"// math-toolbox.js - https://github.com/terkelg/math-toolbox\" > dist/math-toolbox.min.js",
-    "pretest": "standard",
-    "test": "jest",
+    "test": "standard && jest",
     "test:watch": "npm test -- --watch",
     "test:coverage": "jest --coverage",
+    "coveralls": "npm run test:coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "docs": "documentation build src/math-toolbox.js -f html -o docs",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -28,7 +32,16 @@
     "math",
     "utils",
     "toolbox",
-    "helper"
+    "tools",
+    "helper",
+    "lerp",
+    "map",
+    "clamp",
+    "smoothstep",
+    "random",
+    "distance",
+    "trigonometry",
+    "geometry"
   ],
   "author": "Terkel Gjervig",
   "maintainers": [
@@ -52,28 +65,26 @@
     "babel-polyfill": "^6.16.0",
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-es2015-rollup": "^1.2.0",
-    "ghooks": "^1.3.2",
+    "coveralls": "^2.11.14",
     "jest": "^16.0.0",
     "jest-cli": "^16.0.0",
     "jsdoc-to-markdown": "^1.3.7",
     "rollup": "^0.36.1",
     "rollup-plugin-babel": "^2.6.1",
+    "semantic-release": "^4.3.5",
     "standard": "^8.2.0",
-    "uglify-js": "^2.7.3",
-    "semantic-release": "^4.3.5"
+    "uglify-js": "^2.7.3"
   },
   "standard": {
-    "ignore": ["/docs", "/dist"],
+    "ignore": [
+      "/docs",
+      "/dist"
+    ],
     "globals": [
       "expect",
       "it",
       "test",
       "describe"
     ]
-  },
-  "config": {
-    "ghooks": {
-      "pre-push": "npm test"
-    }
   }
 }
