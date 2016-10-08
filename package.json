@@ -1,20 +1,18 @@
 {
   "name": "math-toolbox",
   "description": "Lightweight and modular math toolbox",
-  "main": "dist/math-toolbox.js",
+  "main": "dist/math-toolbox.umd.js",
+  "jsnext:main": "dist/math-toolbox.es.js",
   "version": "0.0.0-semantically-released",
   "scripts": {
-    "prebuild": "npm test",
-    "build": "npm run build:*",
-    "postbuild": "npm run docs",
-    "build:es": "NODE_ENV=build rollup -c",
-    "build:umd": "",
-    "build:uglify": "npm run build && uglifyjs dist/math-toolbox.js -cm --preamble \"// math-toolbox.js - https://github.com/terkelg/math-toolbox\" > dist/math-toolbox.min.js",
+    "build": "npm test && rollup -c",
+    "build:uglify": "npm run build && uglifyjs dist/math-toolbox.umd.js -cm --preamble \"// math-toolbox - https://github.com/terkelg/math-toolbox\" > dist/math-toolbox.umd.min.js",
+    "docs": "documentation build src/math-toolbox.js -f html -o docs",
     "test": "standard && jest",
     "test:watch": "npm test -- --watch",
     "test:coverage": "jest --coverage",
+    "prepublish": "npm run build:uglify",
     "coveralls": "npm run test:coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
-    "docs": "documentation build src/math-toolbox.js -f html -o docs",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
