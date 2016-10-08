@@ -41,41 +41,21 @@ https://unpkg.com/math-toolbox/dist/math-toolbox.min.js
 
 ### Functions
 
-#### clamp
-Clamps a value between a minimum and maximum value and returns clamped value
-
-#### lerp
-Linear interpolation between two values
-
-#### map
-Re-maps a number from one range to another
-
-#### normalize
-Normalize a value between two bounds
-
-#### wrap
-Ensures that the value always stays between min and max, by wrapping the value around
-
-#### smoothStep
-Smooth a value
-
-#### diagonal
-Return diagonal of a rectangle
-
-#### isPowerOfTwo
-Checks if a number is a power of two
-
-#### randomInt
-Return random int within given range
-
-#### RandomFloat
-Return random float with given percision and range 
-
-#### distance
-Returns the euclidian distance between the two given set of coordinates
-
-#### parabola
-Remap value to parabola 
+| function | Description |
+| ---------|:------------|
+| clamp | Clamps a value between a minimum and maximum value and returns clamped value |
+| lerp | Linear interpolation between two values |
+| map | Re-maps a number from one range to another |
+| normalize | Normalize a value between two bounds |
+| wrap | Ensures that the value always stays between min and max, by wrapping the value around |
+| smoothStep | Smooth a value |
+| diagonal | Return diagonal of a rectangle |
+| isPowerOfTwo | Checks if a number is a power of two |
+| randomInt | Return random int within given range |
+| RandomFloat | Return random float with given percision and range  |
+| distance | Returns the euclidian distance between the two given set of coordinates | 
+| parabola | Remap value to parabola |
+ 
 
 ## Plans
 See GitHub Wiki:
