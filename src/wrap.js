@@ -1,5 +1,5 @@
 /**
- * Ensures that the value always stays between min and max, by wrapping the value around
+ * Ensures that the value always stays between min and max, by wrapping the value around.
  * If 'max' is not larger than 'min' the result is 0
  *
  * @param {number} value - The value to wrap
