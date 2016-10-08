@@ -1,7 +1,7 @@
 /**
  * Convert degrees to radians
  *
- * @param  {number} degrees - Width
+ * @param  {number} degrees - Degrees
  * @return {number} Angel in radians
  */
 function degToRad (degrees) {
