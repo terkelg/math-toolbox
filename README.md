@@ -79,7 +79,7 @@ Remap value to parabola
 
 ## Plans
 See GitHub Wiki:
-https://github.com/terkelg/math-toolbox/wiki/Roadmap
+https://github.com/terkelg/math-toolbox/wiki
 
 ## Build
 First clone the project from github:
@@ -126,4 +126,4 @@ npm test:coverage
 - [Terkel Gjervig](https://github.com/terkelg)
 
 ## License
-MIT @ Terkel Gjervig
+*MIT @ Terkel Gjervig*
