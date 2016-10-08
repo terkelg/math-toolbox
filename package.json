@@ -5,7 +5,7 @@
   "jsnext:main": "dist/math-toolbox.es.js",
   "version": "0.0.0-semantically-released",
   "scripts": {
-    "build": "npm test && BABEL_ENV=build rollup -c",
+    "build": "rollup -c",
     "build:uglify": "npm run build && uglifyjs dist/math-toolbox.umd.js -cm --preamble \"// math-toolbox - https://github.com/terkelg/math-toolbox\" > dist/math-toolbox.umd.min.js",
     "docs": "documentation build src/math-toolbox.js -f html -o docs",
     "test": "standard && jest",
@@ -60,9 +60,9 @@
   "license": "MIT",
   "devDependencies": {
     "babel-jest": "^16.0.0",
+    "babel-plugin-external-helpers": "^6.8.0",
     "babel-polyfill": "^6.16.0",
     "babel-preset-es2015": "^6.16.0",
-    "babel-preset-es2015-rollup": "^1.2.0",
     "coveralls": "^2.11.14",
     "jest": "^16.0.0",
     "jest-cli": "^16.0.0",
