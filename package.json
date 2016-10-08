@@ -5,7 +5,7 @@
   "jsnext:main": "dist/math-toolbox.es.js",
   "version": "0.0.0-semantically-released",
   "scripts": {
-    "build": "npm test && rollup -c",
+    "build": "npm test && BABEL_ENV=build rollup -c",
     "build:uglify": "npm run build && uglifyjs dist/math-toolbox.umd.js -cm --preamble \"// math-toolbox - https://github.com/terkelg/math-toolbox\" > dist/math-toolbox.umd.min.js",
     "docs": "documentation build src/math-toolbox.js -f html -o docs",
     "test": "standard && jest",
