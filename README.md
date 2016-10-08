@@ -13,9 +13,11 @@
 ## Install
 
 ### Node
+math-toolbox works in both node.js and browser environments. For node, install with npm:
 ```
 npm install math-toolbox --save-dev
 ```
+
 
 ## Usage
 You can import indivisual files
@@ -28,16 +30,19 @@ or the entire package
 import * as MathToolbox from 'math-toolbox'
 ```
 
+
 ### Browser
-CDN with UMD build for use in the browser:
+To use in browser, grab the ```math-toolbox.umd.min.js``` file and add it to your page, or use the CDN:
 ```
-https://unpkg.com/math-toolbox/dist/math-toolbox.min.js
+https://unpkg.com/math-toolbox/dist/math-toolbox.umd.min.js
 ```
+
 
 ## Documentation
 **See full documentation here:**
 
 **https://terkelg.github.io/math-toolbox/**
+
 
 ### Functions
 
@@ -52,14 +57,17 @@ https://unpkg.com/math-toolbox/dist/math-toolbox.min.js
 | diagonal | Return diagonal of a rectangle |
 | isPowerOfTwo | Checks if a number is a power of two |
 | randomInt | Return random int within given range |
-| RandomFloat | Return random float with given percision and range  |
-| distance | Returns the euclidian distance between the two given set of coordinates | 
+| randomFloat | Return random float with given percision and range  |
+| distance | Returns the euclidian distance between the two given set of coordinates |
 | parabola | Remap value to parabola |
- 
+| radToDeg | Radians to degrees |
+| degToRad | Degrees to radians |
+
 
 ## Plans
 See GitHub Wiki:
 https://github.com/terkelg/math-toolbox/wiki
+
 
 ## Build
 First clone the project from github:
@@ -83,6 +91,7 @@ Build and uglify with:
 npm run build:uglify
 ```
 
+
 ## Test
 [Jest](https://github.com/facebook/jest) is used for unit testing. Test with:
 ```
@@ -100,10 +109,12 @@ Get code coverage with
 npm test:coverage
 ```
 
+
 ## Authors
 - [Patrick Heng](https://github.com/patrickheng)
 - [Fabien Motte](https://github.com/FabienMotte)
 - [Terkel Gjervig](https://github.com/terkelg)
+
 
 ## License
 *MIT @ Terkel Gjervig*
