@@ -62,7 +62,12 @@ https://unpkg.com/math-toolbox/dist/math-toolbox.umd.min.js
 | parabola | Remap value to parabola |
 | radToDeg | Radians to degrees |
 | degToRad | Degrees to radians |
-
+| closestPowerOfTwo | Returns the closest power of two value |
+| fuzzyEqual | Two numbers are fuzzyEqual if their difference is less than epsilon |
+| fuzzyCeil | Calculates a fuzzy ceil to the given value |
+| fuzzyFloor | Calculates a fuzzy floor to the given value |
+| fuzzyGreaterThan | A is fuzzyGreaterThan B if it is more than B - epsilon |
+| fuzzyLessThan | A is fuzzyLessThan B if it is less than B + epsilon |
 
 ## Plans
 See GitHub Wiki:
