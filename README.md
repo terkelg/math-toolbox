@@ -68,6 +68,8 @@ https://unpkg.com/math-toolbox/dist/math-toolbox.umd.min.js
 | fuzzyFloor | Calculates a fuzzy floor to the given value |
 | fuzzyGreaterThan | A is fuzzyGreaterThan B if it is more than B - epsilon |
 | fuzzyLessThan | A is fuzzyLessThan B if it is less than B + epsilon |
+| maxAdd | Adds, but never lets the value go over the specified maximum |
+| minSub | Subtracts, but never lets the value go below the specified minimum. |
 
 ## Plans
 See GitHub Wiki:
