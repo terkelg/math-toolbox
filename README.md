@@ -48,28 +48,29 @@ https://unpkg.com/math-toolbox/dist/math-toolbox.umd.min.js
 
 | function | Description |
 | ---------|:------------|
-| clamp | Clamps a value between a minimum and maximum value and returns clamped value |
-| lerp | Linear interpolation between two values |
-| map | Re-maps a number from one range to another |
-| normalize | Normalize a value between two bounds |
-| wrap | Ensures that the value always stays between min and max, by wrapping the value around |
-| smoothStep | Smooth a value |
-| diagonal | Return diagonal of a rectangle |
-| isPowerOfTwo | Checks if a number is a power of two |
-| randomInt | Return random int within given range |
-| randomFloat | Return random float with given percision and range  |
-| distance | Returns the euclidian distance between the two given set of coordinates |
-| parabola | Remap value to parabola |
-| radToDeg | Radians to degrees |
-| degToRad | Degrees to radians |
-| closestPowerOfTwo | Returns the closest power of two value |
-| fuzzyEqual | Two numbers are fuzzyEqual if their difference is less than epsilon |
-| fuzzyCeil | Calculates a fuzzy ceil to the given value |
-| fuzzyFloor | Calculates a fuzzy floor to the given value |
-| fuzzyGreaterThan | A is fuzzyGreaterThan B if it is more than B - epsilon |
-| fuzzyLessThan | A is fuzzyLessThan B if it is less than B + epsilon |
-| maxAdd | Adds, but never lets the value go over the specified maximum |
+| clamp | Clamps a value between a minimum and maximum value and returns clamped value. |
+| lerp | Linear interpolation between two values. |
+| map | Re-maps a number from one range to another. |
+| normalize | Normalize a value between two bounds. |
+| wrap | Ensures that the value always stays between min and max, by wrapping the value around. |
+| smoothStep | Smooth a value. |
+| diagonal | Return diagonal of a rectangle. |
+| isPowerOfTwo | Checks if a number is a power of two. |
+| randomInt | Return random int within given range. |
+| randomFloat | Return random float with given percision and range. |
+| distance | Returns the euclidian distance between the two given set of coordinates. |
+| parabola | Remap value to parabola. |
+| radToDeg | Radians to degrees. |
+| degToRad | Degrees to radians. |
+| closestPowerOfTwo | Returns the closest power of two value.|
+| fuzzyEqual | Two numbers are fuzzyEqual if their difference is less than epsilon. |
+| fuzzyCeil | Calculates a fuzzy ceil to the given value. |
+| fuzzyFloor | Calculates a fuzzy floor to the given value. |
+| fuzzyGreaterThan | A is fuzzyGreaterThan B if it is more than B - epsilon. |
+| fuzzyLessThan | A is fuzzyLessThan B if it is less than B + epsilon. |
+| maxAdd | Adds, but never lets the value go over the specified maximum. |
 | minSub | Subtracts, but never lets the value go below the specified minimum. |
+| average | Return the average of all values passed to the function. |
 
 ## Plans
 See GitHub Wiki:
