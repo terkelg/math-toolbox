@@ -13,21 +13,21 @@
 ## Install
 
 ### Node
-math-toolbox works in both node.js and browser environments. For node, install with npm:
+Install ````math-toolbox``` from NPM
 ```
 npm install math-toolbox --save-dev
 ```
 
 
 ## Usage
-You can import indivisual files
+You can import individual modules
 ```js
 import { clamp, map } from 'math-toolbox'
 ```
 
 or the entire package
 ```js
-import * as MathToolbox from 'math-toolbox'
+import * as MT from 'math-toolbox'
 ```
 
 
