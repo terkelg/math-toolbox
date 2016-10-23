@@ -71,6 +71,9 @@ https://unpkg.com/math-toolbox/dist/math-toolbox.umd.min.js
 | maxAdd | Adds, but never lets the value go over the specified maximum. |
 | minSub | Subtracts, but never lets the value go below the specified minimum. |
 | average | Return the average of all values passed to the function. |
+| percent | Calculate percantage of value. |
+| isOdd | Returns true if the number given is odd. |
+| isEven | Returns true if the number given is even. |
 
 ## Plans
 See GitHub Wiki:
