@@ -13,7 +13,7 @@
 ## Install
 
 ### Node
-Install ````math-toolbox``` from NPM
+Install ```math-toolbox``` from NPM
 ```
 npm install math-toolbox --save-dev
 ```
