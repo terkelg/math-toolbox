@@ -24,4 +24,4 @@ export { average } from './average'
 export { isOdd } from './is-odd'
 export { isEven } from './is-even'
 export { percent } from './percent'
-// difference
+export { difference } from './difference'

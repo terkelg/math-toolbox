@@ -74,6 +74,7 @@ https://unpkg.com/math-toolbox/dist/math-toolbox.umd.min.js
 | percent | Calculate percantage of value. |
 | isOdd | Returns true if the number given is odd. |
 | isEven | Returns true if the number given is even. |
+| difference | Returns the absolute difference between two values. |
 
 ## Plans
 See GitHub Wiki:
