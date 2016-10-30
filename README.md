@@ -75,6 +75,7 @@ https://unpkg.com/math-toolbox/dist/math-toolbox.umd.min.js
 | isOdd | Returns true if the number given is odd. |
 | isEven | Returns true if the number given is even. |
 | difference | Returns the absolute difference between two values. |
+| within | Checks if two values are within the given tolerance of each other |
 
 ## Plans
 See GitHub Wiki:
