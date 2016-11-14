@@ -6,10 +6,10 @@ notifications:
   email: false
 node_js:
   - '6'
-before_install:
-  - npm i -g npm@^2.0.0
 before_script:
   - npm prune
+script:
+  - npm test -- -i
 after_success:
   - npm run semantic-release
   - npm run coveralls
