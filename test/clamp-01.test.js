@@ -5,6 +5,10 @@ describe('Clamp value between 0 and 1', () => {
     expect(clamp01(1)).toBe(1)
   })
 
+  it('Expect clamp01 with 2 to be 1', () => {
+    expect(clamp01(2)).toBe(1)
+  })
+
   it('Expect clamp01 with 0.5 to be 0.5', () => {
     expect(clamp01(0.5)).toBe(0.5)
   })
