@@ -77,6 +77,7 @@ https://unpkg.com/math-toolbox/dist/math-toolbox.umd.min.js
 | difference | Returns the absolute difference between two values. |
 | within | Checks if two values are within the given tolerance of each other |
 | randomSign | Returns either 1 or -1 |
+| deltaTime | Calculate delta time, with default value of Date.now() |
 
 ## Plans
 See GitHub Wiki:
