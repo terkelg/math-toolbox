@@ -1,7 +1,7 @@
 import { deltaTime } from '../src/math-toolbox'
 
 describe('Calculate delta time', () => {
-  it('Test with default param of Date.now()', () => {
-    expect(deltaTime(Date.now() - 200)).toBeCloseTo(200, 1) // Some time the test is too slow
+  it('Test delta time with 200 ms deifference', () => {
+    expect(deltaTime(752976000, 752976200)).toBe(200) // Some time the test is too slow
   })
 })
