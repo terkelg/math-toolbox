@@ -1,8 +1,8 @@
 /**
  * Ensures that the value always stays between min and max, by wrapping the value around.
- * If 'max' is not larger than 'min' the result is 0
+ * If 'max' is not larger than 'min' the result is 0.
  *
- * @param {number} value - The value to wrap
+ * @param {number} value - The value to wrap.
  * @param {number} min   - The minimum the value is allowed to be.
  * @param {number} max   - The maximum the value is allowed to be, should be larger than 'min'.
  * @return {number} Wrapped value.

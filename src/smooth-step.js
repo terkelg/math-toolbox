@@ -1,10 +1,10 @@
 /**
- * Smooth a value
+ * Smooth a value.
  *
- * @param  {number} min - Minimum boundary
- * @param  {number} max - Maximum boundary
- * @param  {number} v   - Value
- * @return {number} Smoothed value
+ * @param  {number} min - Minimum boundary.
+ * @param  {number} max - Maximum boundary.
+ * @param  {number} v   - Value.
+ * @return {number} Smoothed value.
  */
 function smoothStep (min, max, v) {
   const x = Math.max(0, Math.min(1, (v - min) / (max - min)))

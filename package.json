@@ -2,7 +2,9 @@
   "name": "math-toolbox",
   "description": "Lightweight and modular math toolbox",
   "main": "dist/math-toolbox.umd.js",
+  "module": "dist/math-toolbox.es.js",
   "jsnext:main": "dist/math-toolbox.es.js",
+  "cjs:main": "dist/math-toolbox.cjs.js",
   "version": "0.0.0-semantically-released",
   "scripts": {
     "build": "rollup -c",

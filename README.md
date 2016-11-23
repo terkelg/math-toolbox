@@ -10,6 +10,14 @@
 [![npm](https://img.shields.io/npm/v/math-toolbox.svg?maxAge=2592000)](https://www.npmjs.com/package/math-toolbox)
 
 
+## Documentation
+
+### Full documentation and list of available modules: ###
+
+**https://terkelg.github.io/math-toolbox/**
+
+---
+
 ## Install
 
 ### Node
@@ -36,49 +44,6 @@ To use in browser, grab the ```math-toolbox.umd.min.js``` file and add it to you
 ```
 https://unpkg.com/math-toolbox/dist/math-toolbox.umd.min.js
 ```
-
-
-## Documentation
-**See full documentation here:**
-
-**https://terkelg.github.io/math-toolbox/**
-
-
-### Functions
-
-| function | Description |
-| ---------|:------------|
-| clamp | Clamps a value between a minimum and maximum value and returns clamped value. |
-| lerp | Linear interpolation between two values. |
-| map | Re-maps a number from one range to another. |
-| normalize | Normalize a value between two bounds. |
-| wrap | Ensures that the value always stays between min and max, by wrapping the value around. |
-| smoothStep | Smooth a value. |
-| diagonal | Return diagonal of a rectangle. |
-| isPowerOfTwo | Checks if a number is a power of two. |
-| randomInt | Return random int within given range. |
-| randomFloat | Return random float with given percision and range. |
-| distance | Returns the euclidian distance between the two given set of coordinates. |
-| parabola | Remap value to parabola. |
-| radToDeg | Radians to degrees. |
-| degToRad | Degrees to radians. |
-| closestPowerOfTwo | Returns the closest power of two value.|
-| fuzzyEqual | Two numbers are fuzzyEqual if their difference is less than epsilon. |
-| fuzzyCeil | Calculates a fuzzy ceil to the given value. |
-| fuzzyFloor | Calculates a fuzzy floor to the given value. |
-| fuzzyGreaterThan | A is fuzzyGreaterThan B if it is more than B - epsilon. |
-| fuzzyLessThan | A is fuzzyLessThan B if it is less than B + epsilon. |
-| maxAdd | Adds, but never lets the value go over the specified maximum. |
-| minSub | Subtracts, but never lets the value go below the specified minimum. |
-| average | Return the average of all values passed to the function. |
-| percent | Calculate percantage of value. |
-| isOdd | Returns true if the number given is odd. |
-| isEven | Returns true if the number given is even. |
-| difference | Returns the absolute difference between two values. |
-| within | Checks if two values are within the given tolerance of each other |
-| randomSign | Returns either 1 or -1 |
-| deltaTime | Calculate delta time, with default value of Date.now() |
-| clamp01 | Clamp value between 0 and 1 |
 
 ## Plans
 See GitHub Wiki:

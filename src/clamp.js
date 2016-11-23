@@ -1,15 +1,14 @@
 /**
- * Clamps a value between a minimum and maximum value and returns clamped value
+ * Constrain a value to lie between two further values.
  *
- * @param  {number} min - Minimum boundary
- * @param  {number} max - Maximum boundary
- * @param  {number} v   - Value to clamp
- * @return {number} The clamped value
+ * @param  {number} min - Lower end of the range into which to constrain v.
+ * @param  {number} max - Upper end of the range into which to constrain v.
+ * @param  {number} v   - Value to clamp.
+ * @return {number} The value to constrain.
+ * @see {@link https://www.opengl.org/sdk/docs/man/html/clamp.xhtml}
  */
 function clamp (min, max, v) {
-  if (v < min) return min
-  if (v > max) return max
-  return v
+  return Math.min(max, Math.max(min, v))
 }
 
 export { clamp }

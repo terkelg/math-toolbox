@@ -1,5 +1,5 @@
 /**
- * Re-maps a number from one range to another
+ * Re-maps a number from one range to another (Also known as scale)
  *
  * @param  {number} value  - The incoming value to be converted
  * @param  {number} start1 - Lower bound of the value's current range
