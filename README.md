@@ -23,7 +23,7 @@
 ### Node
 Install ```math-toolbox``` from NPM
 ```
-npm install math-toolbox --save-dev
+npm install math-toolbox --save
 ```
 
 
