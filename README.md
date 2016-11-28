@@ -23,7 +23,7 @@
 ### Node
 Install ```math-toolbox``` from NPM
 ```
-npm install math-toolbox --save
+$ npm install math-toolbox --save
 ```
 
 
@@ -59,35 +59,35 @@ cd math-toolbox
 
 Install the project dependencies:
 ```
-npm install
+$ npm install
 ```
 
 Then, the project can be build by executing the build script via NPM:
 ```
-npm run build
+$ npm run build
 ```
 
 Build and uglify with:
 ```
-npm run build:uglify
+$ npm run build:uglify
 ```
 
 
 ## Test
 [Jest](https://github.com/facebook/jest) is used for unit testing. Test with:
 ```
-npm test
+$ npm test
 ```
 
 To watch for changes and test use:
 
 ```
-npm test:watch
+$ npm test:watch
 ```
 
 Get code coverage with
 ```
-npm test:coverage
+$ npm test:coverage
 ```
 
 
