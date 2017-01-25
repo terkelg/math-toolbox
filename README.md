@@ -1,7 +1,5 @@
 # [![math-toolbox](media/header.png)](https://github.com/terkelg/math-toolbox)
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/terkelg/math-toolbox.svg)](https://greenkeeper.io/)
-
 > Lightweight and modular collection of JS math functions
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
