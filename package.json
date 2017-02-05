@@ -44,7 +44,9 @@
     "random",
     "distance",
     "trigonometry",
-    "geometry"
+    "geometry",
+    "mix",
+    "gcd"
   ],
   "author": "Terkel Gjervig",
   "maintainers": [
