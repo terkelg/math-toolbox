@@ -73,7 +73,7 @@
     "coveralls": "^2.11.14",
     "jest": "^18.1.0",
     "jest-cli": "^18.1.0",
-    "jsdoc-to-markdown": "^2.0.1",
+    "jsdoc-to-markdown": "^3.0.0",
     "rollup": "^0.41.4",
     "rollup-plugin-babel": "^2.6.1",
     "semantic-release": "^6.3.2",
