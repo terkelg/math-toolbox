@@ -10,4 +10,3 @@ function gammaToLinearSpace (v) {
 }
 
 export { gammaToLinearSpace }
-
