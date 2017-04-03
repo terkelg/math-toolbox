@@ -91,9 +91,7 @@ $ npm test:coverage
 ```
 
 
-## Authors
-- [Patrick Heng](https://github.com/patrickheng)
-- [Fabien Motte](https://github.com/FabienMotte)
+## Author
 - [Terkel Gjervig](https://github.com/terkelg)
 
 
