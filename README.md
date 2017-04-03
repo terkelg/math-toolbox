@@ -90,10 +90,5 @@ Get code coverage with
 $ npm test:coverage
 ```
 
-
-## Author
-- [Terkel Gjervig](https://github.com/terkelg)
-
-
 ## License
 *MIT @ Terkel Gjervig*
