@@ -75,7 +75,7 @@
     "jsdoc-to-markdown": "^4.0.0",
     "jest-cli": "^21.0.0",
     "rollup": "^0.48.0",
-    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-babel": "^3.0.7",
     "semantic-release": "^7.0.1",
     "standard": "^10.0.0",
     "uglify-js": "^3.0.0"
