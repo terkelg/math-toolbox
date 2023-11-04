@@ -1,4 +1,6 @@
-import { degToRad, radToDeg, deltaAngleDeg } from './math-toolbox'
+import { degToRad } from './deg-to-rad'
+import { radToDeg } from './rad-to-deg'
+import { deltaAngleDeg } from './delta-angle-deg'
 
 /**
  * Calculates the shortest difference between two given angles given in radians.

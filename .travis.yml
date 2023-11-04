@@ -1,18 +1,18 @@
 language: node_js
 cache:
-  directories:
-    - node_modules
+    directories:
+        - node_modules
 notifications:
-  email: false
+    email: false
 node_js:
-  - '6'
+    - '6'
 before_script:
-  - npm prune
+    - npm prune
 script:
-  - npm test -- -i
+    - npm test -- -i
 after_success:
-  - npm run semantic-release
-  - npm run coveralls
+    - npm run semantic-release
+    - npm run coveralls
 branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+    except:
+        - /^v\d+\.\d+\.\d+$/

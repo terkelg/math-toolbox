@@ -7,7 +7,7 @@
  * @see {@link http://www.iquilezles.org/www/articles/functions/functions.htm}
  */
 function impulse (k, x) {
-  let h = k * x
+  const h = k * x
   return h * Math.exp(1 - h)
 }
 

@@ -10,9 +10,9 @@
 function almostIdentity (x, m, n) {
   if (x > m) return x
 
-  let a = 2 * n - m
-  let b = 2 * m - 3 * n
-  let t = x / m
+  const a = 2 * n - m
+  const b = 2 * m - 3 * n
+  const t = x / m
 
   return (a * t + b) * t * t + n
 }

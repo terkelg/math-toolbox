@@ -1,4 +1,6 @@
-import { degToRad, radToDeg, lerpAngleDeg } from './math-toolbox'
+import { lerpAngleDeg } from './lerp-angle-deg'
+import { radToDeg } from './rad-to-deg'
+import { degToRad } from './deg-to-rad'
 
 /**
  * Same as Lerp but makes sure the values interpolate correctly when they wrap around 2 radians.

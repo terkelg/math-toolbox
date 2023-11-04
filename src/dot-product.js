@@ -12,10 +12,10 @@
  * @return {number} Dot product.
  */
 function dotProduct (x0, y0, x1, y1, x2, y2, x3, y3) {
-  let dx0 = x1 - x0
-  let dy0 = y1 - y0
-  let dx1 = x3 - x2
-  let dy1 = y3 - y2
+  const dx0 = x1 - x0
+  const dy0 = y1 - y0
+  const dx1 = x3 - x2
+  const dy1 = y3 - y2
 
   return dx0 * dx1 + dy0 * dy1
 }
