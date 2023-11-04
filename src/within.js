@@ -1,4 +1,4 @@
- /**
+/**
  * Checks if two values are within the given tolerance of each other.
  *
  * @param {number} a - The first number to check

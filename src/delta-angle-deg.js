@@ -1,4 +1,4 @@
-import { mod } from './math-toolbox'
+import { mod } from './mod'
 
 /**
  * Calculates the shortest difference between two given angles given in degrees.

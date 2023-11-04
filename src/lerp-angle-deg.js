@@ -1,4 +1,6 @@
-import { deltaAngleDeg, mod, lerp } from './math-toolbox'
+import { mod } from './mod'
+import { lerp } from './lerp'
+import { deltaAngleDeg } from './delta-angle-deg'
 
 /**
  * Same as Lerp but makes sure the values interpolate correctly when they wrap around 360 degrees.
@@ -10,7 +12,7 @@ import { deltaAngleDeg, mod, lerp } from './math-toolbox'
  * @see {@link https://docs.unity3d.com/ScriptReference/Mathf.LerpAngle.html}
  */
 function lerpAngleDeg (a, b, t) {
-  let angle = deltaAngleDeg(a, b)
+  const angle = deltaAngleDeg(a, b)
   return mod(a + lerp(0, angle, t), 360)
 }
 

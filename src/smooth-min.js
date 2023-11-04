@@ -8,7 +8,7 @@
  * @see {@link http://iquilezles.org/www/articles/smin/smin.htm}
  */
 function smoothMin (a, b, k) {
-  let res = Math.exp(-k * a) + Math.exp(-k * b)
+  const res = Math.exp(-k * a) + Math.exp(-k * b)
   return -Math.log(res) / k
 }
 
